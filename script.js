@@ -1,8 +1,7 @@
 var origBoard;
-let d=9,count=0;
 const huPlayer = 'O';
 const aiPlayer = 'X';
-currentPlayer='O';
+var currentPlayer='O';
 const winCombos = [
 	[0, 1, 2],
 	[3, 4, 5],
@@ -93,8 +92,6 @@ function checkTie()
 }
 
 function minimax(newBoard, player) {
-  // console.log(count)
-  // count++;
 	var availSpots = emptySquares();
 
 	if (checkWin(newBoard, huPlayer)) {
@@ -168,22 +165,6 @@ function vsAI()
   easy();
 }
 
-function depth(value){
-  d=value;
-  console.log(d);
-}
-
-function fact(x) 
-{
-
-   if(x==0) 
-   {
-      return 1;
-   }
-   return x * fact(x-1);
-}
-
-
 
 function huVhu(square) 
 {
@@ -191,8 +172,8 @@ function huVhu(square)
 	if (typeof origBoard[square.target.id] == 'number') 
 	{
 		turn(square.target.id, currentPlayer)
-		checkWin(origBoard, currentPlayer); 
-		checkTie();
+		// checkWin(origBoard, currentPlayer); 
+		// checkTie();
 		if (currentPlayer=='X')
 			currentPlayer='O';
 		else

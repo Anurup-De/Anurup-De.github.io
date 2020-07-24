@@ -11,21 +11,21 @@ body{
 
 td {
   border:  3px solid white;
-  height:  100px;
-  width:  100px;
+  height:  120px;
+  width:  120px;
   text-align:  center;
   vertical-align:  middle;
   font-family:  "Comic Sans MS", cursive, sans-serif;
-  font-size:  70px;
+  font-size:  80px;
   cursor: pointer;
 }
 
 table {
   border-collapse: collapse;
   position: fixed;
-  left: 50%;
-  margin-left: -155px;
-  top: 50px;
+  left: 40%;
+  margin-left: 20px;
+  top: 100px;
 }
 
 table tr:first-child td {

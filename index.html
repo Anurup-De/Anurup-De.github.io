@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Anurup's Tic Tac Toe</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+	<table>
+		<tr>
+			<td class="cell" id="0"></td>
+			<td class="cell" id="1"></td>
+			<td class="cell" id="2"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="3"></td>
+			<td class="cell" id="4"></td>
+			<td class="cell" id="5"></td>
+		</tr>
+		<tr>
+			<td class="cell" id="6"></td>
+			<td class="cell" id="7"></td>
+			<td class="cell" id="8"></td>
+		</tr>
+	</table>
+	<div class="endgame">
+		<div class="text"></div>
+	</div>
+  <div>
+	  <button class="button" onClick="startGame()">New Game</button>
+    <!-- <button class="button" onClick="">Show Hint</button> -->
+    <p> Players</p>
+    <button class="button" onClick="vsHuman()">Human vs Human</button>
+    <img src="images/HuvsHu.gif" height=125 width=250>
+    <button class="button" onClick="vsAI()">AI vs Human</button>
+    <img class =toggle src="images/AIvsHuman.gif" height=125 width=250>
+  </div>
+  <div id='toggle'>
+    <p>Difficulty</p>
+	 <button class="button"onClick="easy()">Easy</button>
+    <button class="button" onClick="startGame()">Unbeatable</button>
+    <p>Starting Player</p>
+	  <button class="button" onClick="startGame()">Human</button>
+    <button class="button" onClick="startGame;turn(0,aiPlayer)">AI</button>
+  </div>
+  <a href="https://github.com/Anurup-De/marsTicTacToe" >View on Github</a>
+  <script src="script.js"></script>
+</body>
+</html>

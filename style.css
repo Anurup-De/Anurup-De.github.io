@@ -47,11 +47,11 @@ table tr td:last-child {
 .endgame {
   display: none;
   width: 200px;
-  top: 120px;
+  top: 218px;
   background-color: rgba(205,133,63, 0.8);
   position: absolute;
-  left: 50%;
-  margin-left: -100px;
+  left: 40%;
+  margin-left: 107px;
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;

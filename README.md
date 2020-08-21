@@ -9,7 +9,7 @@ As a beginner to web development, this is my first project to be hosted on the w
 
 
 ## Usage
-The app can be accessed from [https://anurup-de.github.io/](https://anurup-de.github.io/Mars)
+The app can be accessed from [https://anurup-de.github.io/Mars](https://anurup-de.github.io/Mars)
 
 ## Features to be added
 1.Showing hints for the next player move. 2.Allowing minimax algorithm to search for best move upto a particular depth in the game tree. 3.Adding options for a 3D grid with alpha beta pruning to reduce calculation time. 4. Adding online multiplayer.
